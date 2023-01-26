@@ -15,7 +15,9 @@ function handleMax(event){
   setMaxCounter(Number(event.target.value))
 }
   return (
+    
     <div className="App">
+      <h2>exercise3</h2>
       usestart
       <input type = "number" value={delta} onChange = {handleDelta}/>
       <input type = "number" value={maxCounter} onChange = {handleMax}/>
